@@ -1,0 +1,23 @@
+spriteTypes = {
+
+	#Chinese Tankgirl Corps
+	
+	spriteType = {
+		name = "GFX_portrait_lin"
+		texturefile = "gfx/leaders/CTC/Lin.dds"
+	}
+	
+	#Heimatshutz Berlin
+	
+	spriteType = {
+		name = "GFX_portrait_isabelle"
+		texturefile = "gfx/leaders/HSB/Isabelle.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_maginot"
+		texturefile = "gfx/leaders/CEM/Maginot.dds"
+	}
+	
+	
+}
