@@ -1,0 +1,92 @@
+characters = {
+
+
+ ######   #######  ##     ## ##    ## ######## ########  ##    ##    ##       ########    ###    ########  ######## ########   ######  
+##    ## ##     ## ##     ## ###   ##    ##    ##     ##  ##  ##     ##       ##         ## ##   ##     ## ##       ##     ## ##    ## 
+##       ##     ## ##     ## ####  ##    ##    ##     ##   ####      ##       ##        ##   ##  ##     ## ##       ##     ## ##       
+##       ##     ## ##     ## ## ## ##    ##    ########     ##       ##       ######   ##     ## ##     ## ######   ########   ######  
+##       ##     ## ##     ## ##  ####    ##    ##   ##      ##       ##       ##       ######### ##     ## ##       ##   ##         ## 
+##    ## ##     ## ##     ## ##   ###    ##    ##    ##     ##       ##       ##       ##     ## ##     ## ##       ##    ##  ##    ## 
+ ######   #######   #######  ##    ##    ##    ##     ##    ##       ######## ######## ##     ## ########  ######## ##     ##  ######  
+
+
+
+
+	HSB_isabelle_porsche = {
+		name = HSB_isabelle_porsche
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_isabelle"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = { steel_wall }
+			expire = "1965.1.1.1"
+
+		}
+		field_marshal = { 
+			traits = { defensive_doctrine thorough_planner }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 6
+			planning_skill = 3
+			logistics_skill = 2
+		}
+
+		advisor = {
+			cost = 150
+			slot = army
+			idea_token = GFX_portrait_HSB_isabelle
+			ledger = army
+			allowed = {
+				original_tag = HSB
+			}
+			traits = {
+				grand_battle_plan_expert
+			}
+		}
+	}
+
+
+
+	
+
+	HSB_pansy_eisenhauer = {
+		name = HSB_pansy_eisenhauer
+		portraits = {
+			army = {
+				#large = GFX_portrait_GER_gerd_von_rundstedt
+				#small = GFX_idea_gerd_von_rundstedt
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = gerd_von_rundstedt
+			ledger = army
+			allowed = {
+				original_tag = GER
+			}
+			traits = {
+				army_regrouping_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.500
+			}
+		}
+		
+		corps_commander = { 
+			traits = { trait_cautious brilliant_strategist old_guard }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 6
+			logistics_skill = 5
+
+		}
+	}
+
+	
+
+}

@@ -1,0 +1,30 @@
+ideas = {
+	
+	country = {
+		SHARED_corruption_hegemony = {
+
+			#picture = 
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes			
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = 0.25
+				stability_weekly_factor = 0.001
+				war_support_weekly_factor = 0.001
+			}
+
+		}
+
+
+	
+
+	}
+}
