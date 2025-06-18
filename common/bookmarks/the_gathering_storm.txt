@@ -1,0 +1,35 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "CTC"
+		default = yes
+		
+		"CTC"={
+			history = "CTC_GATHERING_STORM_DESC"
+			ideology = neutrality
+			available = {  }
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"HSB"={
+			history = "CTC_GATHERING_STORM_DESC"
+			ideology = neutrality
+			available = {  }
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		
+		
+	}	
+}

@@ -1,0 +1,35 @@
+bookmarks = {
+	bookmark = {
+		name = "BLITZKRIEG_NAME"
+		desc = "BLITZKRIEG_DESC"
+		date = 1939.8.14.12
+		picture = "GFX_select_date_1939"
+		default_country = "CTC"
+	
+		"CTC"={
+			history = "CTC_GATHERING_STORM_DESC"
+			ideology = neutrality
+			available = {  }
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"HSB"={
+			history = "CTC_GATHERING_STORM_DESC"
+			ideology = neutrality
+			available = {  }
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+
+	}
+}

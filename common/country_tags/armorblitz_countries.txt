@@ -1,0 +1,4 @@
+CTC = "countries/Chinese Tankgirl Corps.txt"
+HSB = "countries/Heimatshutz Berlin.txt"
+CEM = "countries/MaginotCorruption.txt"
+SEM = "countries/SiegfriedCorruption.txt"

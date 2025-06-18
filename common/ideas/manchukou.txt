@@ -1,0 +1,149 @@
+ideas = {
+	
+	country = {
+		MAN_exiled_imperial_family = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = fascism
+			}
+			
+			removal_cost = -1
+
+			picture = state_shintoism
+			
+			modifier = {
+				army_morale_factor = 0.1
+				stability_factor = 0.1
+				war_support_factor = 0.05
+			}
+		}
+
+		MAN_banditry = {
+
+			available = {
+				OR = {
+					has_country_flag = MAN_northern_bandits
+					has_country_flag = MAN_eastern_bandits
+					has_country_flag = MAN_western_bandits
+				}
+			}
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				original_tag = MAN
+			}
+			
+			removal_cost = -1
+
+			picture = chi_army_corruption2
+			
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.1
+			}
+		}
+
+		MAN_kwantung_overreach = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				original_tag = MAN
+			}
+			
+			removal_cost = -1
+
+			picture = generic_secret_police
+			
+			modifier = {
+				political_power_gain = -0.25
+				stability_factor = -0.25
+				war_support_factor = 0.25
+				political_advisor_cost_factor = 0.25
+				trade_laws_cost_factor = 0.25
+				mobilization_laws_cost_factor = 0.25
+				economy_cost_factor = 0.25
+			}
+		}
+		
+		MAN_no_legitimacy = {
+			
+			name = MAN_no_legitimacy
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				original_tag = MAN
+			}
+			
+			removal_cost = -1
+
+			picture = man_low_legitimacy
+			
+			modifier = {
+				stability_factor = -0.10
+				war_support_factor = -0.10
+			}
+		}
+		
+		MAN_puppet_with_no_strings = {
+			
+			name = MAN_puppet_with_no_string
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = man_low_legitimacy
+			
+			modifier = {
+				political_power_gain = -0.5
+				stability_factor = -0.25
+				war_support_factor = -0.25
+			}
+		}
+
+		MAN_no_hope = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = chi_war_of_resistance
+			modifier = {
+				army_attack_factor = -0.1
+				army_defence_factor = -0.1
+			}
+			targeted_modifier = {
+				tag = CTC
+				attack_bonus_against = -0.1
+				defense_bonus_against = -0.1
+			}
+		}
+		
+	}
+
+
+	
+
+
+}
