@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_phyrnna_radio"
+		texturefile = "gfx/interface/topbar/musicplayer/phyrnna_radio.dds"
+		noOfFrames = 2
+		}
+}
